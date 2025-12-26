@@ -3,7 +3,11 @@ body {
 }
 
 .eng-katta{
-    /* background-image: url(./images/image\ copy\ 4.png); */
+    background-image: url(./images/image\ copy\ 5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px;
 }
 
 .cont {
@@ -12,22 +16,25 @@ body {
     text-align: center;
     justify-content: center;
     height: 100vh;
+
 }
 
 .qat1 {
     width: 300px;
-    background-color: white;
+    background-color: gray;
     border-radius: 25px;
     padding: 10px;
     height: 655px;
+    box-shadow: rgba(255,255,255) 0px 22px 50px 4px;
 }
 
 .qat2 {
     width: 300px;
-    background-color: white;
+    background-color: gray;
     border-radius: 25px;
     padding: 10px;
     height: 655px;
+    box-shadow: rgba(255,255,255) 0px 22px 50px 4px;
 }
 
 h6{
@@ -39,10 +46,11 @@ h6{
 
 .qat3 {
     width: 300px;
-    background-color: white;
+    background-color: gray;
     border-radius: 25px;
     padding: 10px;
     height: 655px;
+    box-shadow: rgba(255,255,255) 0px 22px 50px 4px;
 }
 
 
@@ -60,17 +68,19 @@ h6{
 }
 
 .button {
-    background: linear-gradient(135deg, rgb(0, 0, 0) 0%, green 100%);
+    background: linear-gradient(135deg, rgb(0, 0, 0) 0%, rgb(0, 255, 0) 100%);
     border: none;
     border-radius: 10px;
     padding: 8px;
+    color: #ffffff;
 }
 
 .top-button {
-    background: linear-gradient(135deg, rgb(0, 0, 0) 0%, green 100%);
+    background: linear-gradient(135deg, rgb(0, 0, 0) 0%, rgb(0, 255, 0) 100%);
     border: none;
     border-radius: 10px;
     padding: 4px;
+    color:#ffffff;
 }
 
 ul {
@@ -78,7 +88,7 @@ ul {
 }
 
 .button:hover {
-    background: linear-gradient(135deg, green 0%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(135deg, rgb(0, 255, 0) 0%, rgb(0, 0, 0) 100%);
     cursor: pointer;
 }
 
