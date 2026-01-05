@@ -1,0 +1,155 @@
+body {
+    background-color: rgb(57, 57, 57);
+}
+
+.eng-katta{
+    background-image: url(./images/image\ copy\ 5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+.cont {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.qat1 {
+    width: 300px;
+    background-color: gray;
+    border-radius: 25px;
+    padding: 10px;
+    height: 655px;
+    box-shadow: rgba(255,255,255) 0px 22px 50px 4px;
+}
+
+.qat2 {
+    width: 300px;
+    background-color: gray;
+    border-radius: 25px;
+    padding: 10px;
+    height: 655px;
+    box-shadow: rgba(255,255,255) 0px 22px 50px 4px;
+}
+
+h6{
+    text-align: center;
+    margin-top:-1px;
+    font-family: "Roboto",sans-serif;
+    font-size: 13px;
+}
+
+.qat3 {
+    width: 300px;
+    background-color: gray;
+    border-radius: 25px;
+    padding: 10px;
+    height: 655px;
+    box-shadow: rgba(255,255,255) 0px 22px 50px 4px;
+}
+
+
+.learn {
+    background: linear-gradient(135deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+    border-radius: 10px;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.but {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.button {
+    background: linear-gradient(135deg, rgb(0, 0, 0) 0%, rgb(0, 255, 0) 100%);
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    color: #ffffff;
+}
+
+.top-button {
+    background: linear-gradient(135deg, rgb(0, 0, 0) 0%, rgb(0, 255, 0) 100%);
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+    color:#ffffff;
+}
+
+ul {
+    text-align: start;
+}
+
+.button:hover {
+    background: linear-gradient(135deg, rgb(0, 255, 0) 0%, rgb(0, 0, 0) 100%);
+    cursor: pointer;
+}
+
+.learn:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.top-button:hover{
+    background: linear-gradient(135deg, green 0%, rgb(0, 0, 0) 100%);
+    cursor: pointer;
+}
+
+
+.para{
+    text-align: center;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    margin-top: -20px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.explore{
+    background-color: gray;
+    width: 800px;
+    margin: auto;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 20px;
+}
+
+.h2-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+}
+
+h2{
+    font-size: 30px;
+    font-family: "Roboto",sans-serif;
+}
+
+
+.gift{
+    margin-top: -13px;
+    font-size: 18px;
+    font-family: "Roboto",sans-serif;
+
+}
+
+.gifts{
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    font-size: 13px;
+    font-family: "Roboto",sans-serif;
+    border-radius: 15px;
+    border: none;
+}
+
